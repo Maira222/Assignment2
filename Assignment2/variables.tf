@@ -32,11 +32,7 @@ variable "private_key" {
   type = string
 }
 
-variable "backend_servers" {
-  type = list(object({
-    name        = string
-    script_path = string
-  }))
-}
+
+
 
 
