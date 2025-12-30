@@ -36,7 +36,7 @@ variable "backend_servers" {
   type = list(object({
     name        = string
     script_path = string
-  default     = ["10.0.0.1", "10.0.0.2"]
   }))
 }
+
 
